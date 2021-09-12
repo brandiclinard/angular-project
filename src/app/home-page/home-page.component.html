@@ -1,5 +1,46 @@
-<div class="content" role="main">
-    <h1 style="text-align: center; color: black; position: relative;">Welcome to the Home Page!</h1>
-</div>    
-
-
+<!-- <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        This is the area in which your description would go like the top of your resume.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-icon-button class="example-icon" >
+            <mat-icon>github</mat-icon>
+          </button>
+          <button mat-icon-button class="example-icon">
+            <mat-icon>linkedin</mat-icon>
+          </button>
+    </mat-card-actions>
+</mat-card>  -->
+<div class="projbtnarea" fxLayout="row" fxLayoutWrap fxLayoutGap="12%" fxLayoutAlign="center">
+  <button (click)="projectPage('Brandi')" class="projbtns" mat-raised-button>Brandi's Projects</button>
+  <button (click)="projectPage('Shared')" class="projbtns" mat-raised-button>Shared</button>
+  <button (click)="projectPage('Mykal')" class="projbtns" mat-raised-button>Mykal's Projects</button>
+</div>
+<div class="container" fxLayout="row" fxLayout.sm="column" fxLayoutWrap fxLayoutGap="5%" fxLayoutAlign="center">
+  <mat-card fxLayout="column" fxLayoutAlign="center" fxFlex="40%">
+    <div class="persImg" fxFlex="100%">
+      <img mat-card-image class="img" src="../../assets/BrandiPhoto.jpg">
+    </div>
+    <div fxLayout="row" fxLayoutAlign="center" fxLayoutGap="15%">
+      <mat-icon>call</mat-icon>
+      <mat-icon>email</mat-icon>
+    </div>
+  </mat-card>
+  <mat-card fxLayout="column" fxLayoutAlign="center" fxFlex="40%">
+    <div class="persImg" fxFlex="100%">
+      <img mat-card-image class="img" src="../../assets/MykalPhoto.jpg">
+    </div>
+    <div fxLayout="row" fxLayoutAlign="center" fxLayoutGap="15%">
+      <mat-icon>call</mat-icon>
+      <mat-icon>email</mat-icon>
+    </div>
+  </mat-card>
+</div>

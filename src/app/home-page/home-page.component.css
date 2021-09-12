@@ -1,8 +1,26 @@
-.content {
-    display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
-    max-width: 960px;
-    flex-direction: column;
-    align-items: center;
-  }
+
+.projbtnarea {
+  padding: 2em;
+}
+.projbtns {
+  font-size: 1.5em;
+}
+.persImg{
+  padding-top:2rem;
+  padding-left:2rem;
+  border-radius: 50%;
+}
+.img {
+  width: 100%;
+  border-radius: 50%;
+}
+.container {
+  min-height: 100%;
+  width: 100%;
+}
+mat-card{
+  border: 5px solid lightblue;
+  border-radius: 50%;
+  background-color: black;
+}
+

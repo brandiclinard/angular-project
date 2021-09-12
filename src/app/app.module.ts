@@ -7,6 +7,21 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AngularHelpPageComponent } from './angular-help-page/angular-help-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatFormFieldModule} from '@angular/material/form-field';
+
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { ProjectsComponent } from './projects/projects.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -14,11 +29,20 @@ import { FooterComponent } from './footer/footer.component';
     HomePageComponent,
     AngularHelpPageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    FlexLayoutModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatCardModule,
+    MatMenuModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

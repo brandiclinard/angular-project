@@ -1,7 +1,11 @@
 footer {
-    margin-top: 8px;
-    display: flex;
-    text-align: center;
+    margin-top: 2rem;
+    border-top: 2px solid black;
     line-height: 20px;
     bottom: 0;
+  }
+  p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1%;
   }
