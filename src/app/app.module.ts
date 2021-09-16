@@ -16,6 +16,10 @@ import { MatCardModule } from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatFormFieldModule} from '@angular/material/form-field';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+
+
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ProjectsComponent } from './projects/projects.component';
 
@@ -42,7 +46,8 @@ import { ProjectsComponent } from './projects/projects.component';
     MatIconModule,
     MatCardModule,
     MatMenuModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
