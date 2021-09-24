@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AngularHelpPageComponent } from './angular-help-page/angular-help-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import {MDBBootstrapModule} from "angular-bootstrap-md";
 
 @NgModule({
   declarations: [
@@ -14,12 +16,14 @@ import { FooterComponent } from './footer/footer.component';
     HomePageComponent,
     AngularHelpPageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavBarComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        MDBBootstrapModule.forRoot()
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
